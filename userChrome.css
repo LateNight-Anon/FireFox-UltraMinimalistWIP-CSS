@@ -1,6 +1,13 @@
-#forward-button { display:none!important; }
+#back-button,
+#forward-button {display: none !important;}
 .tabbrowser-tab {min-width: initial !important;}
 .tab-content {overflow: hidden !important;}
 .tabbrowser-tab:not([pinned="true"]) {max-width: 125px !important;}
 #unified-extensions-button{width: 3px;padding-inline: 0 !important}
 #unified-extensions-button  .toolbarbutton-icon {width: 0 !important;}
+#bookmarks-menu-button toolbarbutton {visibility:collapse !important;}
+#alltabs-button {display:none !important;}
+#alltabs-button {width:0px; padding-inline: 0px !important}
+#star-button-box { display:none !important; }
+.tabbrowser-tab .tab-close-button {visibility: collapse !important;}
+#urlbar *|input::placeholder { opacity: 0 !important; }

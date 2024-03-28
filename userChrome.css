@@ -1,4 +1,4 @@
-#back-button,
+/*#back-button,*/
 #forward-button {display: none !important;}
 .tabbrowser-tab {min-width: initial !important;}
 .tab-content {overflow: hidden !important;}
@@ -11,3 +11,4 @@
 #star-button-box { display:none !important; }
 .tabbrowser-tab .tab-close-button {visibility: collapse !important;}
 #urlbar *|input::placeholder { opacity: 0 !important; }
+/*#reload-button, #stop-button {display: none !important;}*/
